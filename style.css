@@ -553,6 +553,40 @@ img{
     top
 }
 
+.more__container{
+    width: 100%;
+    background-color: var(--first-color);
+    height: 80px;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease;
+}
+
+.more__container:hover{
+    background-color: var(--first-color-dark);
+}
+
+.more__content{
+}
+
+.more__title{
+    color: var(--first-color-lighten);
+}
+.more__des{
+    display: relative;
+}
+
+.more__des a{
+    position: absolute;
+    padding: 0.01rem 8rem;
+    color: var(--first-color-darken);
+}
+
+
 .contact__container{
     row-gap: 2rem;
 }
@@ -698,6 +732,39 @@ img{
         text-align: initial;   
     }
 
+    .more__container{
+        width: 100%;
+        background-color: var(--first-color);
+        height: 80px;
+        cursor: pointer;
+        border-radius: .5rem;
+        margin: 20px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .3s ease;
+    }
+
+    .more__container:hover{
+        background-color: var(--first-color-dark);
+    }
+
+    .more__content{
+    }
+
+    .more__title{
+        color: var(--first-color-lighten);
+    }
+    .more__des{
+        display: relative;
+    }
+
+    .more__des a{
+        position: absolute;
+        padding: 0.01rem 8rem;
+        color: var(--first-color-darken);
+    }
+
     .project__img{
         width: 230px;
         align-self: flex-end;
@@ -762,6 +829,8 @@ img{
     .tab{
         width: 100%;
     }
+
+    
 
 
 }
